@@ -1,17 +1,18 @@
 import React from "react";
-import product from "../sanity_buy-now/schemas/product";
-
+import {FooterBanner,Product,HeroBanner} from './../components'
 export default function index() {
   return (
     <>
-      HeroBanner
+      <HeroBanner/>
+      <div  className="products-heading">
       <h2>Best Selling products</h2>
       <p>Speaker of many varitions</p>
-      <div>
+</div>
+      <div  className="products-container">
         {["product 1", "product 2"].map((product) =>  product
         )}
       </div>
-      Footer
+      <FooterBanner/>
     </>
   );
 }
