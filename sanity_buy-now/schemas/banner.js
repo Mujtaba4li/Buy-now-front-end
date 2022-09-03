@@ -28,15 +28,30 @@ export default {
           type:'string'
       },
       {
+          name:'smallText',
+          title:'SmallText',
+          type:'string'
+      },
+      {
           name:'midText',
           title:'MidText',
           type:'string'
       },
       {
-          name:'smallText',
-          title:'SmallText',
+          name:'largeText',
+          title:'large Text',
           type:'string'
-      }
+      },
+      {
+          name:'discount',
+          title:'Discount',
+          type:'string'
+      },
+      {
+          name:'saleTime',
+          title:'Sale Time',
+          type:'string'
+      },
   
     ],
   };

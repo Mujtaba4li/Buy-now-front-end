@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-export default function HeroBanner() {
+const HeroBanner=({heroBanner})=> {
   return (
     <div className="hero-banner-container">
       <div>
@@ -22,3 +22,6 @@ export default function HeroBanner() {
     </div>
   )
 }
+
+export default HeroBanner;
+r
