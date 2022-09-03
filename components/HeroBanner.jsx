@@ -5,7 +5,7 @@ const HeroBanner=({heroBanner})=> {
   return (
     <>
     {
-      console.log(heroBanner)
+      // console.log(heroBanner)
     }
     <div className="hero-banner-container">
       <div>
