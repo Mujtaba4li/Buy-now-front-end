@@ -2,10 +2,14 @@ import { Layout } from '../components'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  <Layout>
+  return (
     
-  return <Component {...pageProps} />
-  </Layout>
+      <Layout>
+      
+        <Component {...pageProps} />
+      </Layout>
+
+  )
 }
 
 export default MyApp
