@@ -131,7 +131,7 @@ width: 100%;
 .hero-banner-container{
   padding: 100px 40px;
   /* background-color: #17ff17; */
-  background: url(../assets/hero-banner.svg);
+  background: url(../assets/hero.svg);
 
   border-radius: 15px;
   position: relative;
