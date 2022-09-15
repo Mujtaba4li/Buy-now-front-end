@@ -40,7 +40,7 @@ const Cart = () => {
 
     const data = await response.json();
 
-    toast.loading(data);
+    toast.loading("Loading...");
 
     stripe.redirectToCheckout({ sessionId: data.id });
   };
