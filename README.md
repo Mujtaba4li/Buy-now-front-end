@@ -1,5 +1,5 @@
 Ecommerce site which is create in NEXT.JS with ReactJS. Sanity to manage backend like we can add banner and products dynamically. And stripe for payment method.
-## Website Link: 
+## Deploy Link: https://buy-now-ecommerce-store.vercel.app/
 
 ![](SCREENSHOTS/ecommerce1.png)
 ![](SCREENSHOTS/ecommerce2.png)
