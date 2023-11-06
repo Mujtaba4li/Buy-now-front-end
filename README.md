@@ -8,5 +8,9 @@ Ecommerce site which is create in NEXT.JS with ReactJS. Sanity to manage backend
 ![](SCREENSHOTS/ecommerce5.png)
 First, run the development server:
 
+### To run the 
 ```bash
+git clone
+cd ecommerce-app
+npm install
 npm run dev
